@@ -47,6 +47,8 @@ public class Killaura extends Module {
 
     @SubscribeEvent
     public void onTick(TickEvent event) {
+        target = null;
+        
         float delays = new Random().nextInt(this.cps.getValue().intValue()) + 5;
         if (timer.delay(delays * 10)) {
             if(Client.nullCheck())
