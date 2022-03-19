@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Bape",
+  "name": "Bape reborn",
+  "description": "Bape Client",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Bape Client Community"],
+  "credits": "Vapu Client Team",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
