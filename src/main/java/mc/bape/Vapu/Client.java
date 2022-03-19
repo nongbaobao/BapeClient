@@ -31,7 +31,7 @@ public class Client {
 
     public static String name = "Bape Reborn";
     public static String real_name = "BAPE";
-    public static String version = "2.10";
+    public static String version = "2.20";
     public static String config = "default";
 
     public static int Theme = new Color(0, 156, 161, 255).getRGB();
