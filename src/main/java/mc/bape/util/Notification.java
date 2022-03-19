@@ -35,8 +35,8 @@ public class Notification {
 
         this.message = message;
         this.title = title;
-            isClassicNotification = true;
-            width = Math.max(mc.fontRendererObj.getStringWidth(message) + 30, 120);
+        isClassicNotification = true;
+        width = Math.max(mc.fontRendererObj.getStringWidth(message) + 30, 120);
         this.height = 22.0f;
         this.animationX = 140.0f;
         this.type = type;
@@ -88,10 +88,10 @@ public class Notification {
                 fontColor = 0xff23ad5c;
         }
 
-            float width = 140.0f;
-            float height = 25.0f;
-            GuiRenderUtils.drawBorderedRect(x1 - 16, y1 - 15, width + 5, height, 0.5f, new Color(0, 0, 0, 150), new Color(200, 200, 200, 200));
-            mc.fontRendererObj.drawString(this.message, (int) (x1 - 8), (int) (y1 - 7), new Color(255, 255, 255).getRGB());
+        float width = 140.0f;
+        float height = 25.0f;
+        GuiRenderUtils.drawBorderedRect(x1 - 16, y1 - 15, width + 5, height, 0.5f, new Color(0, 0, 0, 150), new Color(200, 200, 200, 200));
+        mc.fontRendererObj.drawString(this.message, (int) (x1 - 8), (int) (y1 - 7), new Color(255, 255, 255).getRGB());
     }
 
     public boolean shouldDelete() {
