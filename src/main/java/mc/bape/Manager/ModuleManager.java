@@ -56,6 +56,7 @@ public class ModuleManager {
     static {
         // 没Add的都是有问题的，不要add
         Modules.add(new Velocity());
+        Modules.add(new Fly());
         Modules.add(new AntiBot());
         Modules.add(new AutoPot());
         Modules.add(new AutoGG());
